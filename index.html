@@ -17,8 +17,55 @@
   
 <body>
 
-  <h1>こんにちは、世界！</h1>
-  <p>これはHTMLの基本構造です。</p>
+  <!-- ヘッダー -->
+  <header>
+    <h1>ゆりの部屋</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<main>
+
+    <!-- 自己紹介 -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>はじめまして、Webデザイナーのゆりです。女性向け・シンプルで上品なデザインが得意です。</p>
+    </section>
+
+    <!-- 制作実績 -->
+    <section id="works">
+      <h2>My Works</h2>
+      <div class="works-grid">
+        <div class="work-item">
+          <img src="images/work1.jpg" alt="制作実績1">
+          <p>美容サロンのLPデザイン</p>
+        </div>
+        <div class="work-item">
+          <img src="images/work2.jpg" alt="制作実績2">
+          <p>カフェのWebサイト</p>
+        </div>
+        <!-- 他にも追加できる -->
+      </div>
+    </section>
+
+    <!-- お問い合わせ -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>お仕事のご相談・ご依頼は以下からご連絡ください。</p>
+      <a href="mailto:hello@example.com" class="contact-button">メールで問い合わせる</a>
+    </section>
+
+  </main>
+
+  <!-- フッター -->
+  <footer>
+    <p>&copy; 2025 Yuri. All rights reserved.</p>
+  </footer>
+
 
 </body>
 </html>
